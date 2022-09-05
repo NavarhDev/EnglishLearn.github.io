@@ -5,13 +5,13 @@ write_log = 0
 compress_archive = 1
 publisher = unnamed
 developer = unnamed
-custom_resources = /Voice/
+custom_resources = /res
 title_as_file_name = EnglishLearn
 
 [display]
 width = 960
-height = 640
-high_dpi = 0
+height = 500
+high_dpi = 1
 samples = 0
 fullscreen = 0
 update_frequency = 0
@@ -157,9 +157,9 @@ archive_location_prefix = archive
 archive_location_suffix = 
 engine_arguments = 
 wasm_streaming = 0
-show_fullscreen_button = 1
-show_made_with_defold = 1
-show_console_banner = 1
+show_fullscreen_button = 0
+show_made_with_defold = 0
+show_console_banner = 0
 scale_mode = fit
 
 [particle_fx]
