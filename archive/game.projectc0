@@ -10,7 +10,7 @@ title_as_file_name = EnglishLearn
 
 [display]
 width = 960
-height = 500
+height = 540
 high_dpi = 1
 samples = 0
 fullscreen = 1
@@ -157,10 +157,10 @@ archive_location_prefix = archive
 archive_location_suffix = 
 engine_arguments = 
 wasm_streaming = 0
-show_fullscreen_button = 1
+show_fullscreen_button = 0
 show_made_with_defold = 0
 show_console_banner = 0
-scale_mode = fit
+scale_mode = stretch
 
 [particle_fx]
 max_count = 64
