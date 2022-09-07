@@ -34,8 +34,9 @@
 
 	.canvas-app-container:-webkit-full-screen {
 		/* Auto width and height in Safari/Chrome fullscreen. */
-		width: auto;
-		height: auto;
+		margin:0;
+		height: 100%;
+		overflow: hidden
 	}
 
 	#canvas {
@@ -142,7 +143,7 @@
 			<canvas id="canvas" class="canvas-app-canvas" tabindex="1" width="960" height="500"></canvas>
 		</div>
 		<div class="buttons-background">
-			<div class="button" onclick="Module.toggleFullscreen();">Fulls</div>
+			<div class="button" onclick="Module.toggleFullscreen();">Fullsc</div>
 		</div>
 	</div>
 	<!-- -->
@@ -197,7 +198,7 @@
 		prevInnerWidth = innerWidth;
 		prevInnerHeight = innerHeight;
 		var width = 960;
-		var height = 500;
+		var height = 540;
 		var targetRatio = width / height;
 		var actualRatio = innerWidth / innerHeight;
 	
