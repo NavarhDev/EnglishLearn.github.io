@@ -18,6 +18,8 @@
 		position: fixed; /* Prevent overscroll */
 	
 		margin:0;
+		height: 100%;
+		overflow: hidden
 		padding:0;
 	}
 
@@ -140,7 +142,7 @@
 			<canvas id="canvas" class="canvas-app-canvas" tabindex="1" width="960" height="500"></canvas>
 		</div>
 		<div class="buttons-background">
-			<div class="button" onclick="Module.toggleFullscreen();">Full</div>
+			<div class="button" onclick="Module.toggleFullscreen();">Fulls</div>
 		</div>
 	</div>
 	<!-- -->
@@ -180,9 +182,9 @@
 	buttonHeight = 42;
 	function resize_game_canvas() {
 		// Hack for iOS when exit from Fullscreen mode
-		<!-- if (is_iOS) { -->
-			<!-- window.scrollTo(0, 0); -->
-		<!-- } -->
+		if (is_iOS) {
+			window.scrollTo(0, 0);
+		}
 
 		var app_container = document.getElementById('app-container');
 		var game_canvas = document.getElementById('canvas');
