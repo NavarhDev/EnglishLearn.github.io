@@ -13,10 +13,10 @@ width = 960
 height = 500
 high_dpi = 1
 samples = 0
-fullscreen = 0
+fullscreen = 1
 update_frequency = 0
 swap_interval = 1
-vsync = 1
+vsync = 0
 display_profiles = /builtins/render/default.display_profilesc
 dynamic_orientation = 0
 display_device_info = 0
@@ -157,10 +157,10 @@ archive_location_prefix = archive
 archive_location_suffix = 
 engine_arguments = 
 wasm_streaming = 0
-show_fullscreen_button = 0
+show_fullscreen_button = 1
 show_made_with_defold = 0
 show_console_banner = 0
-scale_mode = stretch
+scale_mode = fit
 
 [particle_fx]
 max_count = 64
