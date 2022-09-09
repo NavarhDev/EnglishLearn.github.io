@@ -18,7 +18,7 @@ update_frequency = 0
 swap_interval = 1
 vsync = 0
 display_profiles = /builtins/render/default.display_profilesc
-dynamic_orientation = 1
+dynamic_orientation = 0
 display_device_info = 0
 
 [render]
