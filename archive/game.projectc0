@@ -18,7 +18,7 @@ update_frequency = 0
 swap_interval = 1
 vsync = 0
 display_profiles = /builtins/render/default.display_profilesc
-dynamic_orientation = 0
+dynamic_orientation = 1
 display_device_info = 0
 
 [render]
@@ -160,7 +160,7 @@ wasm_streaming = 0
 show_fullscreen_button = 0
 show_made_with_defold = 0
 show_console_banner = 0
-scale_mode = stretch
+scale_mode = downscale_fit
 
 [particle_fx]
 max_count = 64
